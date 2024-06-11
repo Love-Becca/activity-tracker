@@ -27,7 +27,7 @@ This project is a task management application built using Laravel, Inertia.js, R
 
 2. Install the dependencies:
    ```bash
-   composer install
+    composer install
     npm install
 
 3. Copy the .env.example file to .env and configure your environment variables:
@@ -38,23 +38,26 @@ This project is a task management application built using Laravel, Inertia.js, R
    ```bash
    php artisan key:generate
 
-5. Run the migrations:
+5. Run the migration:
    ```bash
-  php artisan migrate
+   php artisan migrate
 
-6. Serve the application:
+6. Serve the application
    ```bash
- php artisan serve
+   php artisan serve
 
 7. Build the frontend assets:
    ```bash
- npm run dev
+  npm run dev
 
 
 - Navigate to http://localhost:8000 in your browser.
 - Register or log in to start managing your activities and tasks.
 
 
-8. To run the tests, use the following command:
+8. To run the test:
    ```bash
- php artisan test
+   php artisan test
+
+
+This README file provides clear and detailed instructions on setting up, using the project.
