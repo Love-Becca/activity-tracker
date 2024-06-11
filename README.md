@@ -50,7 +50,6 @@ This project is a task management application built using Laravel, Inertia.js, R
    ```bash
   npm run dev
 
-
 - Navigate to http://localhost:8000 in your browser.
 - Register or log in to start managing your activities and tasks.
 
